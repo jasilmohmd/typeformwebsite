@@ -1,0 +1,46 @@
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 14px;
+}
+.location img{
+  height: 15px;
+  margin-right: 5px;
+}
+.language-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.language-container img{
+  height: 22px;
+  margin-right: 5px;
+}
+.language{
+  cursor: pointer;
+}
+.language:hover{
+  color: rgb(186, 181, 181);
+}
+.cookies{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cookies1{
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 5px 10px;
+}
+.cookies1:hover{
+  color: lightgray;
+}
